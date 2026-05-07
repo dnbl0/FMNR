@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c-nav-link: #131313;
+  --c-link-card-border: rgba(19, 19, 19, 0.1);
+  --c-icon-header-header: #131313;
+  --c-text-lockup-body: rgba(19, 19, 19, 0.75);
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+}
