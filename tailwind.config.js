@@ -2,8 +2,90 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        green: {
+          900: "var(--color-green-900)",
+          800: "var(--color-green-800)",
+          700: "var(--color-green-700)",
+          300: "var(--color-green-300)",
+          200: "var(--color-green-200)",
+          100: "var(--color-green-100)",
+        },
+        blue: {
+          900: "var(--color-blue-900)",
+          700: "var(--color-blue-700)",
+          200: "var(--color-blue-200)",
+        },
+        orange: {
+          600: "var(--color-orange-600)",
+          500: "var(--color-orange-500)",
+          400: "var(--color-orange-400)",
+          300: "var(--color-orange-300)",
+        },
+        yellow: {
+          500: "var(--color-yellow-500)",
+          400: "var(--color-yellow-400)",
+          300: "var(--color-yellow-300)",
+          200: "var(--color-yellow-200)",
+        },
+        warm: {
+          200: "var(--color-warm-200)",
+          100: "var(--color-warm-100)",
+        },
+        neutral: {
+          900: "var(--color-neutral-900)",
+          700: "var(--color-neutral-700)",
+          500: "var(--color-neutral-500)",
+          100: "var(--color-neutral-100)",
+          0:   "var(--color-neutral-0)",
+        },
+        brand: {
+          primary:   "var(--brand-primary)",
+          secondary: "var(--brand-secondary)",
+          accent:    "var(--brand-accent)",
+        },
+      },
+      fontFamily: {
+        display: "var(--font-display)",
+        heading: "var(--font-heading)",
+        body:    "var(--font-body)",
+      },
+      fontSize: {
+        xs:   "var(--font-size-xs)",
+        sm:   "var(--font-size-sm)",
+        base: "var(--font-size-base)",
+        lg:   "var(--font-size-lg)",
+        xl:   "var(--font-size-xl)",
+        "2xl": "var(--font-size-2xl)",
+        "3xl": "var(--font-size-3xl)",
+        "4xl": "var(--font-size-4xl)",
+        "5xl": "var(--font-size-5xl)",
+        "6xl": "var(--font-size-6xl)",
+      },
+      spacing: {
+        1:  "var(--spacing-1)",
+        2:  "var(--spacing-2)",
+        3:  "var(--spacing-3)",
+        4:  "var(--spacing-4)",
+        5:  "var(--spacing-5)",
+        6:  "var(--spacing-6)",
+        8:  "var(--spacing-8)",
+        10: "var(--spacing-10)",
+        12: "var(--spacing-12)",
+        16: "var(--spacing-16)",
+        20: "var(--spacing-20)",
+        24: "var(--spacing-24)",
+      },
+      borderRadius: {
+        none: "var(--radius-none)",
+        sm:   "var(--radius-sm)",
+        md:   "var(--radius-md)",
+        lg:   "var(--radius-lg)",
+        xl:   "var(--radius-xl)",
+        full: "var(--radius-full)",
+      },
+    },
   },
   plugins: [],
 }
-

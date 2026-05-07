@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './tokens/tokens.css';
+
 :root {
-  --c-nav-link: #131313;
-  --c-link-card-border: rgba(19, 19, 19, 0.1);
-  --c-icon-header-header: #131313;
-  --c-text-lockup-body: rgba(19, 19, 19, 0.75);
+  /* Legacy aliases — kept for backward compatibility */
+  --c-nav-link: var(--text-primary);
+  --c-link-card-border: rgba(31, 31, 30, 0.1);
+  --c-icon-header-header: var(--text-primary);
+  --c-text-lockup-body: rgba(31, 31, 30, 0.75);
 }
 
 body {
